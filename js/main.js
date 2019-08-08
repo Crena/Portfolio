@@ -7,4 +7,11 @@ $(document).ready(function() {
         pagination: false
     });
 
+    var typed = new Typed(".typed", {
+        strings: ["Software Engineer.", "Web Developer."],
+        typeSpeed:90,
+        loop:true,
+        startDelay:1000,
+        showCursore:false
+    });
 });
